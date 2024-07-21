@@ -144,7 +144,7 @@ form button{
     display: flex;
     flex-direction: row;
     text-align: center;
-    gap: 5px;
+    gap: 20px;
     width: 80%;
  }
  a{
@@ -340,6 +340,98 @@ div.subsection h1{
     object-fit: cover;
     height: auto;
 }
+.subsection3{
+    display: flex;
+    flex-direction: column;
+    background-color: #fa8950ac;
+    gap: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.subsection3 > .div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
+.rotatingcar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+}
+.rotatingcar i{
+    font-size: 2rem;
+    display: inline-block;
+    animation: heading;
+    animation-duration: 5s;
+    transform-style: preserve-3d;
+    animation-iteration-count: infinite;
+}
+#heading{
+    font-size: 1.7rem;
+    font-weight: bolder;
+    
+}
 
- 
+@keyframes heading {
+    from{
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg) rotateY(360deg);
+    }
+    
+}
+
+.subsection3 > .div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    gap:30px
+}
+.div2 a:nth-of-type(1){
+    background-color: black;
+    color: #FA8A50;
+    width: 30%;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 8px;
+    border-radius: 20px;
+}
+.div2 a:nth-of-type(2){
+    background-color: black;
+    color: #FA8A50;
+    width: 30%;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 8px;
+    border-radius: 20px;
+    
+}
+.div2 a:nth-of-type(1):hover{
+    color: black;
+    background-color: white;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.687);
+}
+.div2 a:nth-of-type(2):hover{
+    color: black;
+    background-color: white;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.687);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    margin-top: 35px;
+}
+ .footer a{
+    color: #FA8A50;
+ }
+.fa-envelope{
+    margin-left: 10px;
+}
 }
