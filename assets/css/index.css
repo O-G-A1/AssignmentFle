@@ -224,6 +224,9 @@ div.subsection h1{
     gap: 40px;
 }
 .div1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     text-align: center;
     width: 80%;
     margin: 0 auto;
@@ -233,12 +236,15 @@ div.subsection h1{
     color: #FA8A50;
 }
 .div1 > h2{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .div1 > p{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .div2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     text-align: center;
     width: 80%;
     margin: 0 auto;
@@ -249,14 +255,17 @@ div.subsection h1{
     color: #FA8A50; 
 }
 .div2 > h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     
 }
 .div2 > p {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .div3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     text-align: center;
     width: 80%;
     margin: 0 auto;
@@ -266,12 +275,15 @@ div.subsection h1{
     color: #FA8A50; 
 }
 .div3 > h2{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .div3 > p{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .div4{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     text-align: center;
     width: 80%;
     margin: 0 auto;
@@ -281,10 +293,52 @@ div.subsection h1{
     color: #FA8A50; 
 }
 .div4 > h2{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .div4 > p{
-    font-size: 1.2rem;
+    font-size: 1rem;
+}
+
+.subsection2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: blue;
+    gap: 40px;
+    background-color: white;
+    margin-top: 60px;
+    box-shadow: inset 3px 3px 16px rgb(250, 138, 80);
+}
+
+.leftsubsection2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.leftsubsection2 h2{
+    color: #FA8A50;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.leftsubsection2 p{
+    text-align: center;
+    font-size: 1.3rem;
+}
+.rightsubsection2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.rightsubsection2 img{
+    width: 80%;
+    object-fit: cover;
+    height: auto;
 }
 
  
