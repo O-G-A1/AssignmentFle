@@ -46,14 +46,17 @@
     margin-left: auto;
     border-bottom: 1px solid white;
     text-decoration: none;
+    color: black;
 }
 #aboutus{
     font-size: 1rem;
+    color: black;
     margin-left: auto;
     border-bottom: 1px solid white;
     text-decoration: none;
 }
 #order{
+    color: black;
     border-bottom: 1px solid white;
     font-size: 1rem;
     margin-left: auto;
@@ -86,8 +89,11 @@ form button{
     border: none;
     border-radius: 10px;
     color: #FA8A50;
-    padding: 11px;
-    font-size: 1.1rem;
+    padding: 8px;
+    font-size: 0.9rem;
+}
+.fa-car{
+    margin-right: 5px;
 }
 .landing{
     display: flex;
@@ -106,6 +112,7 @@ form button{
     
 }
 .rightlanding > img{
+    margin-top: 30px;
     text-align: center;
     max-width: 100%;
     height: auto;
@@ -176,5 +183,109 @@ form button{
  .fa-solid{
     font-size: 1.4rem;
  }
+ div.subsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 40px 80px;
+    background-color: rgb(250, 138, 80);
+}
+
+div.subsection h2{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+div.subsection h1{
+    font-size: 2rem;
+}
+.subsection1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.imagefirst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.imagefirst > img{
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+.text-icon{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.div1{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.div1 > i {
+    font-size: 3.2rem;
+    color: #FA8A50;
+}
+.div1 > h2{
+    font-size: 1.5rem;
+}
+.div1 > p{
+    font-size: 1.2rem;
+}
+.div2{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.div2 > i {
+    font-size: 3.2rem;
+    color: #FA8A50; 
+}
+.div2 > h2 {
+    font-size: 1.5rem;
+    
+}
+.div2 > p {
+    font-size: 1.2rem;
+}
+
+.div3{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.div3 > i{
+    font-size: 3.2rem;
+    color: #FA8A50; 
+}
+.div3 > h2{
+    font-size: 1.5rem;
+}
+.div3 > p{
+    font-size: 1.2rem;
+}
+.div4{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.div4 > i{
+    font-size: 3.2rem;
+    color: #FA8A50; 
+}
+.div4 > h2{
+    font-size: 1.5rem;
+}
+.div4 > p{
+    font-size: 1.2rem;
+}
+
  
 }
