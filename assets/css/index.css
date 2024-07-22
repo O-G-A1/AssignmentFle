@@ -313,14 +313,14 @@ div.subsection h1{
 .leftsubsection2{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
     width: 90%;
     margin: 0 auto;
 
 }
 .leftsubsection2 h2{
     color: #FA8A50;
-    margin-top: 25px;
+    margin-top: 10vh;
     text-align: center;
     font-size: 1.5rem;
     font-weight: 600;
@@ -339,6 +339,7 @@ div.subsection h1{
     width: 80%;
     object-fit: cover;
     height: auto;
+    margin-bottom: 10vh;
 }
 .subsection3{
     display: flex;
@@ -359,7 +360,7 @@ div.subsection h1{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color: black;
+    color: #BE3D2E;
 }
 .rotatingcar i{
     font-size: 2rem;
@@ -372,6 +373,7 @@ div.subsection h1{
 #heading{
     font-size: 1.7rem;
     font-weight: bolder;
+    color: #BE3D2E;
     
 }
 
@@ -434,4 +436,307 @@ div.subsection h1{
 .fa-envelope{
     margin-left: 10px;
 }
+
+.choicecarslanding{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 100%;
+gap: 5px;
+background-color: #FA8A50;
+box-shadow: 2px 2px 6px #fa8950dc;
+}
+
+.choosecar{
+display: flex;
+flex-direction: column;
+align-self: baseline;
+gap: 24px;
+max-width: 45vw;
+overflow: hidden;
+
+}
+.besideform{
+display: flex;
+flex-direction: column;
+max-width: 45vw;
+align-self: center;
+}
+.besideform h2{
+text-align: center;
+font-size: 1.2rem;
+}
+.searchchoicecar{
+max-width: 200px;
+padding: 4px;
+font-size: 11px;
+}
+.buy{
+text-align: center;
+font-size: 1.5rem;
+color: #FA8A50;
+max-width: 90%;
+margin: 3% auto;
+}
+
+hr{
+max-width: 80%;
+margin: 0 auto;
+}
+
+.availablecars{
+display: flex;
+flex-direction: column;
+max-width: 100%;
+align-items: center;
+margin-top: 10px;
+gap: 30px;
+}
+
+div.availablecars div{
+display: flex;
+flex-direction: column;
+align-items: center;
+align-self: stretch;
+max-width: 90%;
+margin: 0 auto;
+border-radius: 30px;
+padding-bottom: 10px;
+gap: 8px;
+background-color: white;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.792);
+}
+.car1 img{
+    max-width: 95%;
+    object-fit: cover;
+    height: auto;
+}
+
+.car1 > h4{
+    text-align: center;
+    color: #FA8A50;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.car2 > h4{
+    text-align: center;
+    color: #FA8A50;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.car3 > h4{
+    text-align: center;
+    color: #FA8A50;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.car4 > h4{
+    text-align: center;
+    color: #FA8A50;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.car5 > h4{
+    text-align: center;
+    color: #FA8A50;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.car6 > h4{
+    text-align: center;
+    color: #FA8A50;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.car7 > h4{
+    text-align: center;
+    color: #FA8A50;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.car8 > h4{
+    text-align: center;
+    color: #FA8A50;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.car9 > h4{
+    text-align: center;
+    color: #FA8A50;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.car10 > h4{
+    text-align: center;
+    color: #FA8A50;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.car11 > h4{
+    text-align: center;
+    color: #FA8A50;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.car12 > h4{
+    text-align: center;
+    color: #FA8A50;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.car13 > h4{
+    text-align: center;
+    color: #FA8A50;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.car14 > h4{
+    text-align: center;
+    color: #FA8A50;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.car15 > h4{
+    text-align: center;
+    color: #FA8A50;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.car16 > h4{
+    text-align: center;
+    color: #FA8A50;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.car1 p{
+    text-align: center;
+    max-width: 50%;
+}
+.car2 p{
+    text-align: center;
+    max-width: 50%;
+}
+.car3 p{
+    text-align: center;
+    max-width: 50%;
+}
+.car4 p{
+    text-align: center;
+    max-width: 50%;
+}
+.car5 p{
+    text-align: center;
+    max-width: 50%;
+}
+.car6 p{
+    text-align: center;
+    max-width: 50%;
+}
+.car7 p{
+    text-align: center;
+    max-width: 50%;
+}
+.car8 p{
+    text-align: center;
+    max-width: 50%;
+}
+.car9 p{
+    text-align: center;
+    max-width: 50%;
+}
+.car10 p{
+    text-align: center;
+    max-width: 50%;
+}
+.car11 p{
+    text-align: center;
+    max-width: 50%;
+}
+.car12 p{
+    text-align: center;
+    max-width: 50%;
+}
+.car13 p{
+    text-align: center;
+    max-width: 50%;
+}
+.car14 p{
+    text-align: center;
+    max-width: 50%;
+}
+.car15 p{
+    text-align: center;
+    max-width: 50%;
+}
+.car16 p{
+    text-align: center;
+    max-width: 50%;
+}
+p > span{
+    color: #fa895080;
+}
+.availablecars a{
+    background-color: #FA8A50;
+    padding: 8px;
+    border-radius: 20px;
+    color: black;
+}
+.availablecars a:hover{
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.708);
+}
+.car2{
+    padding: 47px;
+}
+.car3{
+    padding: 47px;
+}
+.car4{
+    padding: 47px;
+}
+.car5{
+    padding: 47px;
+}
+.car6{
+    padding: 47px;
+}
+.car7{
+    padding: 47px;
+}
+.car8{
+    padding: 47px;
+}
+.car9{
+    padding: 47px;
+}
+.car10{
+    padding: 47px;
+}
+.car11{
+    padding: 47px;
+}
+.car12{
+    padding: 47px;
+}
+.car13{
+    padding: 47px;
+}
+.car14{
+    padding: 47px;
+}
+.car15{
+    padding: 47px;
+}
+.car16{
+    padding: 47px;
+}
+
+
+
+
+.availablecars img{
+    max-width: 95%;
+    object-fit: cover;
+    height: auto;
+}
+
 }
